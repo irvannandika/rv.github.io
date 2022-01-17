@@ -39,9 +39,9 @@ kotak {
 }
 
 .bismillah {
-  margin: 0;
+  margin: 25;
   display: inline-block;
-  max-height: 100px;
+  max-height: 80px;
   vertical-align: middle;
 }
 
