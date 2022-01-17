@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway|Rouge+Script");
+.has-vertically-aligned-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+html {
+  font-family: 'Raleway', Tahoma, sans-serif;
+  width: 100%;
+  min-height: 100%;
+}
+
+.header-wrapper {
+  padding-bottom: 30px;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+   background-color: pink;
+}
+#gallery {
+  background-color: #f8b1b1;
+}
+
+#name2 {
+  color: black;
+}
+
+kotak {
+  background-color: rgb(248, 248, 247);
+}
+@media screen and (max-width: 768px) {
+  .fh5co-nav {
+    padding: 20px 0;
+  }
+}
+
+.bismillah {
+  margin: 25px;
+  display: inline-block;
+  max-height: 100px;
+  vertical-align: middle;
+}
+
+.fh5co-nav #fh5co-logo {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  font-family: "Sacramento", Arial, serif;
+}
+.fh5co-nav a {
+  padding: 5px 10px;
+  color: #fff;
+}
+.hero {
+  background-image: url(https://picsum.photos/id/25/1920/1080);
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+.hero .title {
+  font-family: 'Rouge Script', sans-serif;
+  font-weight: 700;
+  transform: rotate(-2deg);
+  font-size: 5rem;
+  padding-bottom: 5px;
+  color: whitesmoke;
+}
+
+.hero .subtitle {
+  padding: 35px;
+  color: whitesmoke;
+  font-size: 1.3rem;
+}
+
+.hero .tempatwaktu {
+  padding-top: 35px;
+  font-size: 1.3rem;
+  
+}
+
+.hero .hero-foot {
+  height: 50px;
+  background: white;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.082);
+}
+
+@media (max-width: 599px) {
+  .hero .hero-foot {
+    display: none;
+  }
+}
+
+.hero .hero-foot .hero-foot--wrapper {
+  margin: 7px auto;
+  height: 50px;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
+  line-height: 38px;
+  font-weight: 600;
+  text-transform: ;
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li {
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
+  border-bottom: 2px solid #996E6D;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
+  color: #996E6D;
+}
+
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
+  color: #996E6D;
+  transition: all .2s ease-in-out;
+  border-bottom: 2px solid #c28285;
+}
+
+
+.space40px{
+  height: 40px;
+}
+
+.space24px{
+  height: 24px;
+}
+@keyframes sway {
+    0% {
+        transform: rotate(0);
+        animation-timing-function: ease-in-out;
+    }
+    10% {
+        transform: rotate(-12deg);
+        animation-timing-function: ease-in-out;
+    }
+    30% {
+        transform: rotate(8deg);
+        animation-timing-function: ease-in-out;
+    }
+    45% {
+        transform: rotate(-4deg);
+        animation-timing-function: ease-in-out;
+    }
+    60% {
+        transform: rotate(2deg);
+        animation-timing-function: ease-in-out;
+    }
+    70% {
+        transform: rotate(-.1deg);
+        animation-timing-function: ease-in-out;
+    }
+    75% {
+        transform: rotate(.05deg);
+        animation-timing-function: ease-in-out;
+    }
+    80% {
+        transform: rotate(0);
+        animation-timing-function: ease-in-out;
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+.bergerak {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    padding: 32px 32px;
+    margin: 64px 0;
+    animation: sway 5s linear infinite;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
